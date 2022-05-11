@@ -1,0 +1,35 @@
+.interested{
+    padding-bottom: 96px;
+    
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__box{
+        max-width: 500px;
+    }
+    
+    &__heading{
+        min-height: 84px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        color: #33323D;
+    }
+    &__button{
+        margin: 0;
+        padding: 17px 34px;
+        box-sizing: border-box;
+        border: 1px solid #33323D;
+        background-color: #ffffff;
+        transition: 0.3s;
+    }
+    &__button:hover{
+        opacity: 0.8;
+    }
+    &__button:active{
+        opacity: 0.4;
+    }
+}

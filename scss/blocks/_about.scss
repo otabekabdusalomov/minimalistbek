@@ -44,6 +44,13 @@
         box-sizing: border-box;
         border: 1px solid #33323D;
         background-color: #ffffff;
+        transition: 0.3s;
+    }
+    &__button:hover{
+        opacity: 0.8;
+    }
+    &__button:active{
+        opacity: 0.4;
     }
     &__picture{
         flex-shrink: 0;
@@ -95,35 +102,3 @@
         }
     }
 }
-// @media only screen and (max-width:900px) {
-//     .about__img {
-//         max-width: 380px;
-//     }
-// }
-// @media only screen and (max-width:768px) {
-//     .about__img {
-//         margin-top: 50px;
-//         max-width: 280px;
-//         height: 600px;
-//     }
-// }
-// @media only screen and (max-width:600px) {
-//     .about {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//     }
-//     &__heading {
-//         text-align: center;
-//     }
-// }
-// @media only screen and (max-width:375px) {
-//     .about {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//     }
-//     &__heading {
-//         text-align: center;
-//     }
-// }

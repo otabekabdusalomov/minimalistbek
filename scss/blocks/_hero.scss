@@ -1,6 +1,5 @@
 .hero{
     padding-top: 54px;
-    // padding-bottom: 150px;
     &__container{
         background-image: url(../img/hero-selection.png);
         background-repeat: no-repeat;
@@ -18,7 +17,6 @@
         border: none;
     }
     &__heading{
-        padding: 0;
         margin: 0;
         font-weight: 700;
         font-size: 50px;
