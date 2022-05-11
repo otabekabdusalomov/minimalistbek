@@ -5,13 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Scss-bem-starter</title>
+    <title>minimalist</title>
 </head>
 <body>
-    <!--HEAD-->
-    <header></header>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo" href="#">
+                <img class="header__img" src="./img/logouchburchak.png" alt="minimalist-logo"width="60" height="32">
+            </a>
+            
+            <nav class="sitenav">
+                <ul class="sitenav__list">
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">Home</a>
+                    </li>
+                    
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">Categories</a>
+                    </li>
+                    
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">About</a>
+                    </li>
+                    
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">Contact</a>
+                    </li>
+                    
+                </ul>
+                
+                <button class="button sitenav__button">
+                    <img class="sitenav__button-img" src="./img/chiziq.png" alt="riseption-menu" width="16" height="15">
+                </button>
+            </nav>
+            
+        </div>
+    </header>
+    
     <!--MAIN-->
-    <main></main>
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__box">
+                    <h2 class="hero__heading">Hey, I’m Alex Spencer and I love building beautiful websites</h2>
+
+                    <div class="hero__button">
+                        <button class="hero__button-logo">
+                            <img class="hero__button-logo-img" src="./img/Group3btn.svg" alt="minimalist-logo">
+                        </button>
+                        <button class="hero__button-tittle">ABOUT ME</button>
+                    </div>
+                </div>
+              
+            </div>
+        </section>
+    </main>
     <!--FOOTER-->
     <footer></footer>
 </body>
