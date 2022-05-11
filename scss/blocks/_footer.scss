@@ -1,0 +1,87 @@
+.site-footer {
+    background-color: #33323D;
+    margin-top: 150px;
+    &__container{
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo{
+        flex-shrink: 0;
+        transition: 0.3s;
+    }
+    &__logo:hover{
+        opacity: 0.8;
+    }
+    &__logo:active{
+        opacity: 0.4;
+    }
+    &__first{
+        display: flex;
+        align-items: center;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0px;
+    }
+    &__item{
+        padding-left: 42px;
+    }
+    &__link{
+        padding: 0px;
+        margin: 0px;
+        color: #FFFFFF;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    &__link:hover{
+        opacity: 0.8;
+    }
+    &__link:active{
+        opacity: 0.4;
+    }
+    &__img-mesenj-know{
+        margin-left: 15px;
+        transition: 0.3s;
+    }
+    &__img-mesenj-know:hover{
+        opacity: 0.8;
+    }
+    &__img-mesenj-know:active{
+        opacity: 0.4;
+    }
+
+}
+
+@media only screen and (max-width:650px) {
+    .site-footer{
+        padding-top:40px;
+        padding-bottom:40px;
+        &__container{
+            display: flex;
+            flex-direction: column;
+        }
+        &__first {
+            display: flex;
+            flex-direction: column;
+        }
+        &__list{
+            display: flex;
+            margin-right: 30px;
+            list-style: none;
+            text-align: center;
+            flex-direction: column;
+        }
+        &__item{
+            margin-top: 32px;
+        }
+        &__img-mesenj{
+            margin-top: 40px;
+        }
+    }
+}

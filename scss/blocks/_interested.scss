@@ -33,3 +33,20 @@
         opacity: 0.4;
     }
 }
+@media only screen and (max-width:500px) {
+    .interested {
+        &__container{
+            display: flex;
+            flex-direction: column;
+        }
+     
+        
+        &__heading{
+            text-align: center; 
+        }
+    }
+    .site-interested__hr {
+        display: none;
+    }
+    
+}
