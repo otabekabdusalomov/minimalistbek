@@ -1,6 +1,6 @@
 .hero{
     padding-top: 54px;
-    padding-bottom: 150px;
+    // padding-bottom: 150px;
     &__container{
         background-image: url(../img/hero-selection.png);
         background-repeat: no-repeat;
@@ -11,10 +11,11 @@
     }
     &__box{
         position: relative;
-        max-width: 445px;
+        max-width: 455px;
         min-height: 357px;
         background-color: white;
         top: 243px;
+        border: none;
     }
     &__heading{
         padding: 0;
@@ -39,7 +40,7 @@
         transition: 0.3s;
     }
     &__button-logo:hover{
-        opacity: 0.4;
+        opacity: 0.8;
     }
     &__button-logo:active{
         opacity: 0.4;
@@ -52,13 +53,13 @@
         padding-bottom: 17px;
         background-color: #203A4C;
         border: none;
-        transition: 0.3;
+        transition: 0.3s;
     }
     &__button-tittle:hover{
-        opacity: 0.4;
+        opacity: 0.8;
     }
     &__button-tittle:active{
-        opacity: 0.8;
+        opacity: 0.4;
     }
 }
 
